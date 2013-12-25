@@ -1,10 +1,234 @@
-# login information
+
+# ----------------------------------------------------------------------
+# file:    ~/.muttrc
+# author:  moparx     - http://moparx.com/configs
+# date:    05/08/2013 - 18:12 EDT
+# vim: set ai et fenc=utf-8 ft=muttrc nu si sts=0 sw=4 ts=8 tw=0 :
+# ----------------------------------------------------------------------
+
+# my identity ----------------------------------------------------------
+
+#source ~/.mutt/identity
+
 set imap_user='joejansanchez@gmail.com'
 set imap_pass='PASSWORD'
-# email server location
+
 set spoolfile=imaps://joejansanchez@gmail.com@imap.gmail.com:993/INBOX
 set folder=imaps://joejansanchez@gmail.com@imap.gmail.com:993/
 set smtp_url=smtp://joejansanchez@gmail.com:PASSWORD@smtp.gmail.com:587
-set editor=/usr/bin/vi
+#set editor=/usr/bin/vi
 set from=joejansanchez@gmail.com
 
+# paths ----------------------------------------------------------------
+
+#set folder       = "~/.mail"
+set sendmail     = "/usr/bin/msmtp"
+set mailcap_path = "~/.mutt/mailcap"
+set header_cache = "~/.mutt/cache/headers"
+
+
+# mailboxes ------------------------------------------------------------
+
+set mbox         = +inbox
+set mbox_type    = maildir
+set postponed    = +drafts
+set record       = +sent
+#set spoolfile    = +inbox
+set trash        = +trash
+
+mailboxes        =inbox           \
+                 =lists/archlinux \
+                 =lists/gnuzilla  \
+                 =lists/newton    \
+                 =bundles         \
+                 =spam            \
+                 =sent            \
+                 =save            \
+                 =trash
+
+
+# headers --------------------------------------------------------------
+
+ignore           *
+unignore  Subject: Date: From: Organization: Reply-To: To:
+
+unhdr_order      *
+hdr_order Subject: Date: From: Organization: Reply-To: To:
+
+my_hdr X-PGP-Key: http://moparx.com/pubkey.asc
+my_hdr X-PGP-Key-Fingerprint: A986 D3FC FB92 5AD1 23C5  3525 60E8 2C74 7033 E8D7
+my_hdr X-No-Archive: Yes
+
+
+# mailing lists --------------------------------------------------------
+
+unlists          *
+unsubscribe      *
+
+lists arch-announce@archlinux.org
+subscribe arch-announce@archlinux.org
+
+lists arch-general@archlinux.org
+subscribe arch-general@archlinux.org
+
+lists arch-dev-public@archlinux.org
+subscribe arch-dev-public@archlinux.org
+
+# email stuff ----------------------------------------------------------
+
+mime_lookup application/octet-stream
+
+alternative_order text/plain
+auto_view text/html
+auto_view text/x-vcard
+auto_view application/pgp
+auto_view application/pgp-signature
+
+attachments      +I text/plain
+attachments      +A */.*
+attachments      -A text/x-vcard application/pgp.*
+attachments      -A application/x-pkcs7-.*
+attachments      -A message/external-body
+attachments      -I message/external-body
+
+
+# format ---------------------------------------------------------------
+
+set date_format  = "%m/%d"
+set index_format = "%D  [%Z]  %-22.20L  %-0.60s"
+set pager_format = "Message: %C of %m %> %P"
+
+
+# keybindings ----------------------------------------------------------
+
+
+#bind index <left>  sidebar-prev
+#bind index <right> sidebar-next
+#bind index <space> sidebar-open
+
+macro index <Tab> '<enter-command>toggle sidebar_visible<enter>'
+macro pager <Tab> '<enter-command>toggle sidebar_visible<enter>'
+
+macro index,pager y         "<change-folder>?<toggle-mailboxes>"                          "incoming mail"
+macro index,pager <esc><F2> "| sa-learn --spam --single<enter><save-message>=spam<enter>" "learn spam"
+macro index,pager <esc><F3> "| sa-learn --ham --single<enter>"                            "learn ham"
+macro index,pager <esc>a    "<shell-escape>abook<return>"                                 "launch abook"
+
+
+# scoring --------------------------------------------------------------
+
+unscore          *
+
+score            ~A                       +5
+#score      ~Q                            +2
+#score      "~f '@defectivebydesign.org'" +2
+#score      "~f '@eff.org'"               +2
+#score      "~f '@fsf.org'"               +2
+#score      "~s 'New\ Private\ Message'"  +5
+
+
+# settings -------------------------------------------------------------
+
+set beep_new
+set charset="utf-8"
+set copy
+set content_type="text/plain"
+set delete
+set edit_headers
+#set editor="vim +"
+set fast_reply=yes
+set followup_to=yes
+set include
+set mail_check=60
+set mailcap_sanitize
+set markers=no
+set move=no
+set nomark_old
+set pager_index_lines=9
+set query_command="abook --mutt-query '%s'"
+set quit=ask-yes
+set reverse_name
+set score_threshold_delete=0
+set score_threshold_flag=10
+set score_threshold_read=0
+#set sidebar_visible=1
+#set sidebar_width=20
+#set sidebar_delim=' ┃'
+set signature
+set smart_wrap
+set sort=threads
+set sort_aux=date-sent
+set timeout=20
+set use_envelope_from
+#set xterm_set_titles
+set quote_regexp = "^( {0,4}[>|:%]| {0,4}[a-z0-9]+[>|]+)+"
+set help=no
+
+
+
+# colors ---------------------------------------------------------------
+
+#color header     color75    default   "(^Subject:.*|^Date:.*|^From:.*|^To:.*|^Reply-To:.*|Organization:.*)"
+
+#color tree       color75    default
+#color error      brightred  default
+#color message    white      default
+#color status     default    color240
+#color indicator  default    color240
+#color attachment color240   default
+#color signature  color240   default
+
+#color index      white      default   ~A
+#color index      color61    default   ~Q
+#color index      color156   default   ~N
+#color index      color011   default   ~F
+#color index      green      default   ~G
+#color index      red        default   ~D
+#color index      yellow     default   ~T
+
+#color quoted     color108   default
+#color quoted1    color116   default
+#color quoted2    color71    default
+
+#color body       color74    default   "(http|https|ftp|news)://[^ \"\t\r\n]*"
+#color body       color74    default   "[-a-z_0-9.]+@[-a-z_0-9.]+" #\\.[-a-z][-a-z]+"
+#color body       color74    default   "mailto:[-a-z_0-9.]+@[-a-z_0-9.]+"
+#color body       brightyellow default " [;:]-*[})>{(<|]"
+#color body       cyan       default   "(^|[[:space:][:punct:]])\\*[^*]+\\*([[:space:][:punct:]]|$)"
+#color body       cyan       default   "(^|[[:space:][:punct:]])_[^_]+_([[:space:][:punct:]]|$)"
+
+#color body       color157   default   "^gpg: .*"
+#color body       color157   default   "^Primary key fingerprint: .*"
+#color body       brightgreen  default "^gpg: Good signature .*"
+#color body       brightred  default   "^gpg: BAD signature from.*"
+mono  body       bold                 "^gpg: Good signature"
+mono  body       bold                 "^gpg: BAD signature from.*"
+
+#color body      red         default   "^gpg: WARNING: .*"
+#color body      red         default   "^gpg: Note: This key has expired!"
+
+#color sidebar_new brightyellow default
+
+# gnupg ----------------------------------------------------------------
+
+set crypt_autosign
+set crypt_replyencrypt
+set crypt_replysignencrypted
+set crypt_timestamp
+set crypt_verify_sig
+
+set pgp_auto_decode
+set pgp_clearsign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --textmode --clearsign %?a?-u %a? %f"
+set pgp_decode_command="gpg %?p?--passphrase-fd 0? --no-verbose --batch --output - %f"
+set pgp_decrypt_command="gpg --passphrase-fd 0 --no-verbose --batch --output - %f"
+set pgp_encrypt_only_command="pgpewrap gpg -v --batch --output - --encrypt --textmode --armor --always-trust -- -r %r -- %f"
+set pgp_encrypt_sign_command="pgpewrap gpg --passphrase-fd 0 -v --batch --output - --encrypt --sign %?a?-u %a? --armor --always-trust -- -r %r -- %f"
+set pgp_export_command="gpg --no-verbose --export --armor %r"
+set pgp_import_command="gpg --no-verbose --import -v %f"
+set pgp_list_pubring_command="gpg --no-verbose --batch --with-colons --list-keys %r"
+set pgp_list_secring_command="gpg --no-verbose --batch --with-colons --list-secret-keys %r"
+set pgp_sign_as=0x7033E8D7
+set pgp_sign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --detach-sign --textmode %?a?-u %a? %f"
+set pgp_timeout=2000
+set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
+set pgp_verify_key_command="gpg --no-verbose --batch --fingerprint --check-sigs %r"
