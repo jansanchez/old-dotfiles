@@ -1,0 +1,17 @@
+# tmux
+
+session_name="development"
+
+tmux new-session -s "$session_name" -n "terminal" -d
+tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/ && clear' C-m
+
+tmux new-window -t "$session_name:1" -n "editor"
+#tmux send-keys -t "$session_name" 'vim ~/htdocs/urbania3/frontend/cafe/modules/all.coffee' C-m
+
+tmux new-window -t "$session_name:2" -n "compile"
+tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/' C-m
+tmux send-keys -t "$session_name" 'cafe' C-m
+
+tmux select-window -t "$session_name":1
+tmux attach -t "$session_name"
+

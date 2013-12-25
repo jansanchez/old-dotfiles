@@ -1,0 +1,67 @@
+######################
+# - Conky settings - #
+######################
+update_interval 20
+total_run_times 0
+net_avg_samples 1
+cpu_avg_samples 1
+
+imlib_cache_size 0
+double_buffer yes
+no_buffers yes
+
+#####################
+# - Text settings - #
+#####################
+use_xft yes
+xftfont Dinreg:size=140
+override_utf8_locale yes
+text_buffer_size 2048
+xftalpha 0.9
+
+#############################
+# - Window specifications - #
+#############################
+
+background no
+
+own_window_class Conky
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+#own_window_argb_visual yes
+#own_window_argb_value 1
+
+alignment tr
+gap_x 0
+gap_y 0
+minimum_size 290 1024
+
+default_bar_size 0 0
+
+#########################
+# - Graphics settings - #
+#########################
+draw_shades no
+
+default_color BDB5A1
+default_shade_color 1d1d1d
+
+color0 ffffff
+color1 ffffff
+color2 D6713C
+
+
+TEXT
+${voffset 110}${font Dinreg:size=13}${color2}${if_match ${time %H}<12}AM${else}${if_match ${time %H}>12}PM${endif}${endif} 
+${voffset 0}${color}${font}${time %I}
+${color2}${voffset -150}${time %M}${color}
+${voffset -160}${offset 10}${color}${font Ubuntu:size=28}${time %A}
+${offset 10}${color2}${font Ubuntu:size=24}${time %d} de ${font Ubuntu:size=20}${time %B}
+${offset 10}${font Ubuntu:pixelsize=13}${color2}HD   ${offset 9}$color${fs_free /} / ${fs_size /}
+${offset 10}${color2}RAM ${offset 10}$color$mem / $memmax
+${offset 10}${color2}CPU ${offset 10}$color${cpu cpu0}%
+
+
+

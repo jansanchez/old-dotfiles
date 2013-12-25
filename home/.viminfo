@@ -1,0 +1,452 @@
+# Vim 7.3 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último Patrón de búsqueda:
+~MSle0~/script.js
+
+# Última cadena de sustitución:
+$
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q!
+:wq
+:w
+:w!
+:colorscheme kruby
+:colorscheme solarized
+:tabe
+:colorscheme Monokai
+:colorscheme whitebox
+:colorscheme white
+:colorscheme yaml
+:colorscheme osx_like
+:colorscheme neon
+:colorscheme mrkn256
+:colorscheme kolor
+:colorscheme jellybeans
+:colorscheme guardian
+:colorscheme freya
+:colorscheme f
+:colorscheme desert
+:colorscheme codeschool
+:colorscheme lightcolors
+:colorscheme pablo
+:colorscheme mophia
+:colorscheme montz
+:colorscheme molokai
+:colorscheme adam
+:colorscheme railscasts
+:colorscheme dark-ruby
+:W
+:set filetype=javascript
+:set filetype=js
+:set filetype=.js
+:set typefile=javascript
+:set type=javascript
+:set type=coffee
+:settype=javascript
+:help syntax
+:set syntax=js
+:set syntax=javascript
+:set type javascript
+:set syntax javascript
+:Wq
+:q
+:q1
+:wq!
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? \s\+$
+?/script.js
+?/window.aaa
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	CHAR	0
+	n
+"1	LINE	0
+	
+"2	LINE	0
+	
+"3	LINE	0
+	
+"4	LINE	0
+	                            //console.log("$('.modal-img')", $('.modal-img').html());
+"5	LINE	0
+	                            window.aaa = $content;
+"6	LINE	0
+	                                console.log('cargo,,');
+"7	LINE	0
+	                                //console.log("$('.modal-img')", $('.modal-img').html());
+"8	LINE	0
+	                                //modalSocial.html(socialHtml);
+"9	LINE	0
+	                            $('.modal-img').empty();
+""-	CHAR	0
+	}
+
+# Marcas en el archivo:
+'0  19  0  ~/dotfiles/bootstrap.sh
+'1  18  6  ~/dotfiles/bootstrap.sh
+'2  114  20  ~/.tmux.conf
+'3  1  0  ~/htdocs/urbania3/frontend/chaplin/coffee/application.coffee
+'4  20  18  ~/tmxs/urbania3
+'5  36  20  ~/htdocs/urbania3/src/module/Peruid/view/layout/renders/_login.phtml
+'6  39  96  ~/htdocs/shopin/module/Application/view/layout/layout.phtml
+'7  168  30  ~/htdocs/shopin/public/static/js/script.js
+'8  2  0  ~/tools/spf13-vim/[Vundle] clean
+'9  7  22  ~/htdocs/shopin/public/static/js/script.js
+
+# Lista de saltos (el más reciente va primero):
+-'  19  0  ~/dotfiles/bootstrap.sh
+-'  18  6  ~/dotfiles/bootstrap.sh
+-'  1  2  ~/dotfiles/bootstrap.sh
+-'  114  20  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  1  0  ~/htdocs/urbania3/frontend/chaplin/coffee/application.coffee
+-'  20  18  ~/tmxs/urbania3
+-'  1  0  ~/tmxs/urbania3
+-'  36  20  ~/htdocs/urbania3/src/module/Peruid/view/layout/renders/_login.phtml
+-'  1  0  ~/htdocs/urbania3/src/module/Peruid/view/layout/renders/_login.phtml
+-'  39  96  ~/htdocs/shopin/module/Application/view/layout/layout.phtml
+-'  1  0  ~/htdocs/shopin/module/Application/view/layout/layout.phtml
+-'  181  38  ~/htdocs/shopin/public/static/js/script.js
+-'  179  28  ~/htdocs/shopin/public/static/js/script.js
+-'  168  28  ~/htdocs/shopin/public/static/js/script.js
+-'  177  28  ~/htdocs/shopin/public/static/js/script.js
+-'  153  19  ~/htdocs/shopin/public/static/js/script.js
+-'  189  20  ~/htdocs/shopin/public/static/js/script.js
+-'  82  25  ~/htdocs/shopin/public/static/js/script.js
+-'  7  22  ~/htdocs/shopin/public/static/js/script.js
+-'  2  0  ~/tools/spf13-vim/[Vundle] clean
+-'  1  0  ~/htdocs/shopin/public/static/js/script.js
+-'  2  4  ~/htdocs/urbania3/.git/MERGE_MSG
+-'  1  0  ~/htdocs/urbania3/.git/MERGE_MSG
+-'  3  0  ~/htdocs/urbania3/.git/MERGE_MSG
+-'  11  0  ~/htdocs/shopin/shopin.txt
+-'  1  0  ~/htdocs/shopin/shopin.txt
+-'  1  0  ~/htdocs/nmkotear/.git/config
+-'  8  0  ~/htdocs/nmkotear/.git/config
+-'  1  0  ~/htdocs/neoauto2/.git/config
+-'  1  0  ~/htdocs/urbania2/.git/config
+-'  2  4  ~/htdocs/ofertop2/.git/MERGE_MSG
+-'  1  0  ~/htdocs/ofertop2/.git/MERGE_MSG
+-'  2  1  ~/htdocs/ofertop2/.git/config
+-'  1  0  ~/htdocs/ofertop2/.git/config
+-'  8  0  ~/htdocs/ofertop2/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+-'  1  0  ~/htdocs/urbania3/.git/config
+-'  9  0  ~/htdocs/urbania3/.git/config
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/dotfiles/bootstrap.sh
+	"	19	0
+	^	7	26
+	.	19	0
+	+	18	81
+	+	18	0
+	+	5	0
+	+	8	0
+	+	5	3
+	+	7	3
+	+	9	0
+	+	19	0
+
+> ~/dotfiles/ControlP
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/.tmux.conf
+	"	114	20
+
+> ~/htdocs/urbania3/frontend/chaplin/coffee/application.coffee
+	"	1	0
+
+> ~/tmxs/urbania3
+	"	20	18
+	^	13	34
+	.	13	28
+	+	13	28
+
+> ~/htdocs/urbania3/src/module/Peruid/view/layout/renders/_login.phtml
+	"	36	20
+
+> ~/htdocs/urbania3/frontend/cafe/modules/empresas.coffee
+	"	4734	12
+
+> ~/htdocs/urbania3/src/module/Peruid/view/layout/renders/ControlP
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/shopin/public/static/js/script.js
+	"	179	51
+	^	173	0
+	.	175	0
+	+	153	20
+	+	120	0
+	+	177	19
+	+	179	0
+	+	179	31
+	+	184	0
+	+	179	0
+	+	184	0
+	+	181	30
+	+	170	112
+	+	170	84
+	+	170	112
+	+	168	74
+	+	170	84
+	+	177	28
+	+	170	57
+	+	168	68
+	+	179	51
+	+	170	57
+	+	168	28
+	+	168	26
+	+	168	0
+	+	168	30
+	+	170	0
+	+	154	0
+	+	181	31
+	+	168	0
+	+	170	0
+	+	168	58
+	+	179	0
+	+	170	0
+	+	168	80
+	+	179	0
+	+	179	84
+	+	179	0
+	+	168	0
+	+	179	52
+	+	179	63
+	+	179	63
+	+	180	52
+	+	168	0
+	+	180	0
+	+	179	0
+	+	170	57
+	+	168	0
+	+	166	0
+	+	170	57
+	+	177	0
+	+	170	50
+	+	178	0
+	+	178	46
+	+	167	0
+	+	167	0
+	+	168	0
+	+	171	0
+	+	172	61
+	+	174	28
+	+	177	32
+	+	174	28
+	+	174	46
+	+	177	0
+	+	175	45
+	+	176	0
+	+	174	28
+	+	176	27
+	+	166	27
+	+	174	58
+	+	175	40
+	+	174	40
+	+	176	0
+	+	173	0
+	+	170	0
+	+	174	0
+	+	175	0
+
+> ~/htdocs/shopin/public/static/js/ControlP
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/htdocs/shopin/module/Application/view/layout/layout.phtml
+	"	39	96
+	^	39	97
+	.	39	96
+	+	39	96
+
+> ~/tools/spf13-vim/[Vundle] Installer
+	"	72	0
+	.	1	0
+	+	1	0
+
+> ~/tools/spf13-vim/[Vundle] clean
+	"	2	0
+	.	1	0
+	+	1	0
+
+> /usr/share/vim/vim73/doc/syntax.txt
+	"	7	21
+
+> ~/htdocs/urbania3/.git/MERGE_MSG
+	"	2	4
+	^	2	5
+	.	2	4
+	+	1	47
+	+	1	5
+	+	1	43
+	+	2	4
+
+> ~/htdocs/shopin/shopin.txt
+	"	11	0
+
+> ~/htdocs/nmkotear/.git/config
+	"	1	0
+
+> ~/htdocs/neoauto2/.git/config
+	"	1	0
+
+> ~/htdocs/urbania2/.git/config
+	"	1	0
+
+> ~/htdocs/ofertop2/.git/MERGE_MSG
+	"	2	4
+	^	2	5
+	.	2	4
+	+	2	4
+
+> ~/htdocs/ofertop2/.git/config
+	"	2	1
+
+> ~/htdocs/urbania3/.git/config
+	"	9	0

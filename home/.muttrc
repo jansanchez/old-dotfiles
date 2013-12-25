@@ -1,0 +1,10 @@
+# login information
+set imap_user='joejansanchez@gmail.com'
+set imap_pass='PASSWORD'
+# email server location
+set spoolfile=imaps://joejansanchez@gmail.com@imap.gmail.com:993/INBOX
+set folder=imaps://joejansanchez@gmail.com@imap.gmail.com:993/
+set smtp_url=smtp://joejansanchez@gmail.com:PASSWORD@smtp.gmail.com:587
+set editor=/usr/bin/vi
+set from=joejansanchez@gmail.com
+

@@ -1,0 +1,44 @@
+[user]
+	name = Jan Sanchez
+	email = joejansanchez@gmail.com
+[credential]
+	helper = cache --timeout=3600
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[apply]
+	whitespace = fix
+[alias]
+	st = status 
+	pu = pull 
+	ck = checkout 
+	cb = checkout -b 
+	br = branch 
+	cm = commit 
+	ca = commit -am 
+	ad = add .
+	me = merge 
+	ps = push 
+	or = origin
+	db= branch -d 
+	lg = log --graph -10
+	ll = log --graph -30 --pretty=format:'%Cgreen%h %Creset%ad %Cblue%an %Creset%s'
+	in = fetch --dry-run
+	out = push --dry-run
+[core]
+	editor = vim
+[merge]
+	tool = meld
+
+[sendemail]
+	smtpserver = /joejansanchez@gmail.com/bin/mutt
