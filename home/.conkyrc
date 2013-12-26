@@ -63,5 +63,5 @@ ${offset 10}${font Ubuntu:pixelsize=13}${color2}HD   ${offset 9}$color${fs_free 
 ${offset 10}${color2}RAM ${offset 10}$color$mem / $memmax
 ${offset 10}${color2}CPU ${offset 10}$color${cpu cpu0}%
 
-
+${execp netstat -upant | grep "tcp" | grep -v "127.0.0.1\|::1" | awk '{split($4, a, ":"); if (a[1]!="") print "${offset 10}${color2}Listen $color",a[1],":",a[2] }' }
 

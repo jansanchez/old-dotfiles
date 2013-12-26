@@ -12,8 +12,8 @@ tmux new-window -t "$session_name:3" -n "compile"
 tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/' C-m
 tmux send-keys -t "$session_name" 'cafe' C-m
 
-tmux new-window -t "$session_name:4" -n "chat"
-#tmux send-keys -t "$session_name" 'chat' C-m
+#tmux new-window -t "$session_name:4" -n "email"
+#tmux send-keys -t "$session_name" 'mutt' C-m
 
 tmux select-window -t "$session_name":1
 tmux attach -t "$session_name"
