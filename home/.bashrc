@@ -114,6 +114,7 @@ if [ -f ~/.bash_colors ]; then
     . ~/.bash_colors
 fi
 
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 

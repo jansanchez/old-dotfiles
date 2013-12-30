@@ -1,16 +1,17 @@
 # tmux config for urbania
 
-session_name="urbania3"
+session_name="neoauto2"
+folder_name="$session_name"
 
 tmux new-session -s "$session_name" -n "terminal" -d
-tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/ && clear' C-m
+tmux send-keys -t "$session_name" 'cd ~/htdocs/"$folder_name"/ && clear' C-m
 
 tmux new-window -t "$session_name:2" -n "editor"
-tmux send-keys -t "$session_name" 'vim ~/htdocs/urbania3/frontend/cafe/modules/all.coffee' C-m
+tmux send-keys -t "$session_name" 'vim' C-m
 
 tmux new-window -t "$session_name:3" -n "compile"
-tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/' C-m
-tmux send-keys -t "$session_name" 'cafe' C-m
+tmux send-keys -t "$session_name" 'cd ~/htdocs/"$folder_name"/ && clear' C-m
+#tmux send-keys -t "$session_name" 'cafe' C-m
 
 #tmux new-window -t "$session_name:4" -n "email"
 #tmux send-keys -t "$session_name" 'mutt' C-m
