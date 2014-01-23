@@ -193,7 +193,9 @@ alias home='cd ~/'
 
 alias chaplin='coffee --watch --bare --output src/public/static/js/um/ frontend/chaplin/coffee/'
 
-alias css='cd ~/htdocs/urbania3/frontend/css && node init.njs && cd ~/htdocs/urbania3/'
+#alias css='cd ~/htdocs/urbania3/frontend/css && node init.njs && cd ~/htdocs/urbania3/'
+
+alias css='watch -n 1 node init.njs'
 
 alias cafe='coffee --watch --bare --output src/public/static/js/ frontend/cafe/'
 

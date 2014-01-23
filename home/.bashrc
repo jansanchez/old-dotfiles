@@ -114,6 +114,9 @@ if [ -f ~/.bash_colors ]; then
     . ~/.bash_colors
 fi
 
+export http_proxy="http://172.21.0.83:3128"
+export https_proxy="https://172.21.0.83:3128"
+export ftp_proxy="ftp://172.21.0.83:3128"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 

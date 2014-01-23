@@ -734,6 +734,7 @@ figlist
 file
 file-roller
 filefrag
+filezilla
 filterdiff
 finch
 find
@@ -827,6 +828,8 @@ fuser
 fusermount
 fusesmb
 fusesmb.cache
+fzputtygen
+fzsftp
 g++
 g++-4.7
 g3topbm
@@ -1771,9 +1774,13 @@ pgmtoppm
 pgrep
 phantomjs
 php
+php-config
+php-config5
 php5
 php5dismod
 php5enmod
+phpize
+phpize5
 pi1toppm
 pi3topbm
 pic
@@ -2254,6 +2261,8 @@ showfont
 showkey
 showrgb
 shred
+shtool
+shtoolize
 shuf
 shutdown
 simpdftex

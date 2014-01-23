@@ -6,7 +6,8 @@ tmux new-session -s "$session_name" -n "terminal" -d
 tmux send-keys -t "$session_name" 'cd ~/htdocs/ && clear' C-m
 
 tmux new-window -t "$session_name:2" -n "editor"
-#tmux send-keys -t "$session_name" 'vim ~/htdocs/frontend/cafe/modules/all.coffee' C-m
+tmux send-keys -t "$session_name" 'cd ~/htdocs/ && clear' C-m
+#tmux send-keys -t "$session_name" 'vim ~/htdocs/' C-m
 
 tmux new-window -t "$session_name:3" -n "compile"
 tmux send-keys -t "$session_name" 'cd ~/htdocs/ && clear' C-m

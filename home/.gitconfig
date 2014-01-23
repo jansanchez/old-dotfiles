@@ -36,7 +36,7 @@
 	in = fetch --dry-run
 	out = push --dry-run
 [core]
-	editor = /usr/bin/vim
+	editor = sublime
 [merge]
 	tool = meld
 
