@@ -2,7 +2,7 @@
 	name = Jan Sanchez
 	email = joejansanchez@gmail.com
 [credential]
-	helper = cache --timeout=3600
+	helper = cache --timeout=9800
 [color "branch"]
 	current = yellow reverse
 	local = yellow

@@ -52,13 +52,19 @@ alias   gusers="git log --format='%aN' | sort -u"
 alias	chat='echo " > sudo nc -vlp 23" && sudo nc -vlp 23'
 
 
-
 function glas() {
+	echo " > git log --name-only --pretty=format: --author=$1 --since=$2 | sort | uniq"
 	git log --name-only --pretty=format: --author="$1" --since=$2 | sort | uniq
 }
 
 function access() {
+	echo " > ssh -v ${1:-'git@git.ec.pe'}"
 	ssh -v ${1:-'git@git.ec.pe'}
+}
+
+function restart() {
+	echo " > sudo service $1 restart"
+	sudo service $1 restart
 }
 
 
@@ -195,7 +201,7 @@ alias chaplin='coffee --watch --bare --output src/public/static/js/um/ frontend/
 
 #alias css='cd ~/htdocs/urbania3/frontend/css && node init.njs && cd ~/htdocs/urbania3/'
 
-alias css='watch -n 1 node init.njs'
+alias css='cd ~/htdocs/aptitus2/frontend && watch -n 1 node init.njs'
 
 alias cafe='coffee --watch --bare --output src/public/static/js/ frontend/cafe/'
 
