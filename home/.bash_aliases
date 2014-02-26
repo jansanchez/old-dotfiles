@@ -216,3 +216,5 @@ alias tmuxu='~/dotfiles/tmxs/urbania3'
 alias tmuxn='~/dotfiles/tmxs/neoauto2'
 
 alias tmuxd='~/dotfiles/tmxs/development'
+
+alias tmuxjp='~/dotfiles/tmxs/jqueryplugins'
