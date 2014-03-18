@@ -5,7 +5,7 @@ session_name="jquery-plugins"
 tmux new-session -s "$session_name" -n "terminal" -d
 tmux send-keys -t "$session_name" 'cd ~/htdocs/jquery-plugins/' C-m
 tmux split-window -v -t "$session_name"
-tmux send-keys -t "$session_name" 'cd ~/htdocs/jquery-plugins/' C-m
+tmux send-keys -t "$session_name" 'cd ~/htdocs/jquery-plugins/ && clear' C-m
 
 tmux new-window -t "$session_name:2" -n "editor"
 tmux send-keys -t "$session_name" 'vim ~/htdocs/jquery-plugins/frontend/' C-m
