@@ -217,4 +217,6 @@ alias tmuxn='~/dotfiles/tmxs/neoauto2'
 
 alias tmuxd='~/dotfiles/tmxs/development'
 
+alias tmuxa='~/dotfiles/tmxs/aptitus2'
+
 alias tmuxjp='~/dotfiles/tmxs/jqueryplugins'

@@ -181,6 +181,7 @@ bmp2tiff
 bmptopnm
 bmptoppm
 bmtoa
+botti
 bower
 brunch
 brushtopbm
@@ -1150,13 +1151,16 @@ irb
 irb-ruby-1.9.3-p484
 irb-ruby-1.9.3-p484@global
 irb1.9.1
+irssi
 ischroot
 isdv4-serial-debugger
 isosize
 ispell-autobuildhash
 ispell-wrapper
+isql
 itweb-settings
 iucode_tool
+iusql
 iw
 iwconfig
 iwevent
@@ -1581,6 +1585,7 @@ obmenu
 obxprop
 oclock
 od
+odbcinst
 ods-server
 odvicopy
 odvitype
@@ -2312,6 +2317,7 @@ splitindex
 sprof
 sputoppm
 sqlite3
+sqsh
 ss
 ssconvert
 sselp
@@ -2688,6 +2694,8 @@ wc
 wdiff
 wdiff2
 weave
+weechat
+weechat-curses
 wftopfa
 wget
 what-patch
