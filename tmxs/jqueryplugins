@@ -24,6 +24,8 @@ tmux new-window -t "$session_name:4" -n "g-connect"
 tmux send-keys -t "$session_name" 'cd ~/htdocs/jquery-plugins/' C-m
 tmux send-keys -t "$session_name" 'grunt connect' C-m
 
+tmux new-window -t "$session_name:5" -n "weechat"
+tmux send-keys -t "$session_name" 'weechat-curses' C-m
 
 tmux select-window -t "$session_name":1
 tmux attach -t "$session_name"
