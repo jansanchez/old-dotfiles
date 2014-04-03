@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+ln -s ~/dotfiles/extras/bash/.custom_functions ~/.custom_functions
+
+echo " > Enlazando ~/dotfiles/extras/bash/.custom_functions a ~/.custom_functions"
+
+cat ~/dotfiles/extras/bash/includes_bashrc >> ~/.bashrc
+
+cat ~/dotfiles/extras/bash/includes_zshrc >> ~/.zshrc
+
+echo "instalación correcta de las funciones personalizadas"
+

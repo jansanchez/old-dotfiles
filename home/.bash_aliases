@@ -69,6 +69,7 @@ function restart() {
 
 
 
+
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."

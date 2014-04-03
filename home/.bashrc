@@ -101,24 +101,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-if [ -f ~/.bash_colors ]; then
-    . ~/.bash_colors
-fi
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export http_proxy="http://172.21.0.83:3128"
 export https_proxy="https://172.21.0.83:3128"
 export ftp_proxy="ftp://172.21.0.83:3128"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-
-
+# final del archivo

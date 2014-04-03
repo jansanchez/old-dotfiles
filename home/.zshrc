@@ -64,10 +64,12 @@ DISABLE_AUTO_TITLE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
+# Customize to your needs...
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
 source $ZSH/oh-my-zsh.sh
 
 source ~/.bash_aliases
 
-# Customize to your needs...
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# final del archivo

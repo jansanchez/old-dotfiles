@@ -1,0 +1,4 @@
+
+if [ -f ~/.custom_functions ]; then
+    source ~/.custom_functions
+fi
