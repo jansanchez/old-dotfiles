@@ -73,3 +73,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.bash_aliases
 
 # final del archivo
+
+if [ -f ~/.custom_functions ]; then
+    source ~/.custom_functions
+fi

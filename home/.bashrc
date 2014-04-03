@@ -108,3 +108,7 @@ export https_proxy="https://172.21.0.83:3128"
 export ftp_proxy="ftp://172.21.0.83:3128"
 
 # final del archivo
+
+if [ -f ~/.custom_functions ]; then
+    . ~/.custom_functions
+fi
