@@ -112,6 +112,4 @@ export ftp_proxy="ftp://172.21.0.83:3128"
 if [ -f ~/.custom_functions ]; then
     . ~/.custom_functions
 fi
-if [ -f ~/.custom_functions ]; then
-    . ~/.custom_functions
-fi
+
