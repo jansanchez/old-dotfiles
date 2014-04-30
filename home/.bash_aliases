@@ -221,3 +221,5 @@ alias tmuxd='~/dotfiles/tmxs/development'
 alias tmuxa='~/dotfiles/tmxs/aptitus2'
 
 alias tmuxjp='~/dotfiles/tmxs/jqueryplugins'
+
+alias tmuxo='~/dotfiles/tmxs/ofertop'
