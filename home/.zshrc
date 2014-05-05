@@ -77,6 +77,4 @@ source ~/.bash_aliases
 if [ -f ~/.custom_functions ]; then
     source ~/.custom_functions
 fi
-if [ -f ~/.custom_functions ]; then
-    source ~/.custom_functions
-fi
+
