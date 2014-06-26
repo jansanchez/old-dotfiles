@@ -43,8 +43,6 @@ highlight LineNr ctermfg=yellow
 "colorear el cursor line seleccionado
 highlight CursorLine term=bold cterm=bold guibg=black ctermfg=gray
 
-colorscheme desertEx
-
 autocmd BufNewFile,BufRead *.jade set filetype=jade
 autocmd BufNewFile,BufRead *.styl set filetype=stylus
 
@@ -52,3 +50,12 @@ autocmd BufNewFile,BufRead *.styl set filetype=stylus
 execute pathogen#infect()
 filetype plugin indent on
 
+" colorschemes favorites
+
+"colorscheme desertEx
+"colorscheme camo
+"colorscheme corn
+"colorscheme corn
+
+
+colorscheme industrial

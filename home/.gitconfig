@@ -35,10 +35,9 @@
 	ll = log --graph -30 --pretty=format:'%Cgreen%h %Creset%ad %Cblue%an %Creset%s'
 	in = fetch --dry-run
 	out = push --dry-run
-[core]
-	editor = vim
 [merge]
 	tool = meld
-
 [sendemail]
 	smtpserver = /joejansanchez@gmail.com/bin/mutt
+[core]
+	editor = vim
