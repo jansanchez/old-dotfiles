@@ -197,3 +197,7 @@ ls
 sh oh-my-zsh.sh 
 sh oh-my-zsh.sh
 oh-my-zsh.sh
+cd dotfiles/
+ls
+sudo bash bootstrap.sh
+bash bootstrap.sh
