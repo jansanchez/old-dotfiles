@@ -22,7 +22,6 @@ set wildignore+=*/chef/*
 set wildignore+=*/coverage/*
 set wildignore+=*.png,*.jpg,*.otf,*.woff,*.jpeg,*.orig
 
-
 set wildignore+=*resources/*
 set wildignore+=*solr/*
 set wildignore+=*sql/*
@@ -32,6 +31,11 @@ set wildignore+=*migrations/*
 set wildignore+=*docs/*
 set wildignore+=*out/*
 set wildignore+=*src/lib/*
+set wildignore+=*provision/*
+
+
+set wildignore+=*node_modules/*
+
 
 let g:indentLine_color_term = 239
 let g:indentLine_color_gui = '#A4E57E'

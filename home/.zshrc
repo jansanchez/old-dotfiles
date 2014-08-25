@@ -68,6 +68,8 @@ plugins=(git)
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+export PATH=/usr/local/share/npm/bin:$PATH
+
 source $ZSH/oh-my-zsh.sh
 
 source ~/.bash_aliases
