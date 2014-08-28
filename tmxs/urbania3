@@ -3,7 +3,7 @@
 session_name="urbania3"
 
 tmux new-session -s "$session_name" -n "terminal" -d
-tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/ && clear' C-m
+tmux send-keys -t "$session_name" 'cd ~/data/vagrant-sites/vms/urbania/ && clear' C-m
 
 tmux split-window -v -p 50 -t "$session_name"
 tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/ && clear' C-m
