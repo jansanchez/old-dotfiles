@@ -16,7 +16,7 @@ tmux new-window -t "$session_name:3" -n "vagrant & watcher"
 tmux send-keys -t "$session_name" 'cd ~/data/vagrant-sites/vms/urbania/' C-m
 tmux send-keys -t "$session_name" 'vagrant up' C-m
 tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/frontend/online/' C-m
-tmux send-keys -t "$session_name" 'gulp observer' C-m
+tmux send-keys -t "$session_name" 'gulp watch' C-m
 
 #tmux new-window -t "$session_name:4" -n "email"
 #tmux send-keys -t "$session_name" 'mutt' C-m
