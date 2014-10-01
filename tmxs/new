@@ -3,7 +3,7 @@
 session_name="urbania3"
 
 tmux new-session -s "$session_name" -n "terminal" -d
-tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/ && clear' C-m
+tmux send-keys -t "$session_name" 'cd ~/data/vagrant-sites/vms/urbania/ && clear' C-m
 
 tmux split-window -v -p 50 -t "$session_name"
 tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/ && clear' C-m
@@ -12,7 +12,9 @@ tmux new-window -t "$session_name:2" -n "editor"
 tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/ && clear' C-m
 tmux send-keys -t "$session_name" 'vim' C-m
 
-tmux new-window -t "$session_name:3" -n "watcher"
+tmux new-window -t "$session_name:3" -n "vagrant & watcher"
+tmux send-keys -t "$session_name" 'cd ~/data/vagrant-sites/vms/urbania/' C-m
+tmux send-keys -t "$session_name" 'vagrant up' C-m
 tmux send-keys -t "$session_name" 'cd ~/htdocs/urbania3/frontend/online/' C-m
 tmux send-keys -t "$session_name" 'gulp watch' C-m
 

@@ -41,3 +41,4 @@
 	smtpserver = /joejansanchez@gmail.com/bin/mutt
 [core]
 	editor = vim
+	attributesfile = ~/.gitattributes
