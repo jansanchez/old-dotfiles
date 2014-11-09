@@ -180,9 +180,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # Run DropboxUploader if you have it installed
 alias dropbox="~/code/Dropbox-Uploader/dropbox_uploader.sh $1"
 
-# PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
-alias plistbuddy="/usr/libexec/PlistBuddy"
-
 # One of @janmoesen’s ProTip™s
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "$method"="lwp-request -m '$method'"
