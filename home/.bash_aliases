@@ -51,6 +51,7 @@ alias   gusers="git log --format='%aN' | sort -u"
 
 alias	chat='echo " > sudo nc -vlp 23" && sudo nc -vlp 23'
 
+alias   starcraft='wine ~/games/SC1.16/StarCraft.exe'
 
 function glas() {
 	echo " > git log --name-only --pretty=format: --author=$1 --since=$2 | sort | uniq"
