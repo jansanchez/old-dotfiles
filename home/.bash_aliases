@@ -196,7 +196,7 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 alias home='cd ~/'
 
-alias chaplin='coffee --watch --bare --output src/public/static/js/um/ frontend/chaplin/coffee/'
+#alias chaplin='coffee --watch --bare --output src/public/static/js/um/ frontend/chaplin/coffee/'
 
 #alias css='cd ~/htdocs/urbania3/frontend/css && node init.njs && cd ~/htdocs/urbania3/'
 
