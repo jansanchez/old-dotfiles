@@ -57,6 +57,12 @@ alias   starcraft='wine ~/games/SC1.16/StarCraft.exe'
 
 alias 	brillo='echo 6 | sudo tee  /sys/class/backlight/acpi_video0/brightness'
 
+# alises for off/reset of linux system
+
+alias	off='sudo halt'
+alias	reset='sudo reboot'
+
+
 
 function glas() {
 	echo " > git log --name-only --pretty=format: --author=$1 --since=$2 | sort | uniq"
@@ -153,6 +159,10 @@ alias npmg="sudo npm install -g"
 alias npmu="sudo npm update"
 alias npmr="sudo npm uninstall"
 alias npmrg="sudo npm uninstall -g"
+
+alias isave="sudo npm install --save"
+alias isavedev="sudo npm install --save-dev"
+
 
 # View HTTP traffic
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
