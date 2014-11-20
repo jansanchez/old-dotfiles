@@ -62,6 +62,7 @@ alias 	brillo='echo 6 | sudo tee  /sys/class/backlight/acpi_video0/brightness'
 alias	off='sudo halt'
 alias	reset='sudo reboot'
 
+alias   menu='tint2restart && clear'
 
 function glas() {
 echo " > git log --name-only --pretty=format: --author=$1 --since=$2 | sort | uniq"
