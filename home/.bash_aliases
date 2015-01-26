@@ -203,6 +203,7 @@ alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
+alias android="bash ~/applications/android-studio/bin/studio.sh"
 
 #alias chaplin='cd frontend/chaplin/ && make && cd ../..'
 
@@ -233,4 +234,5 @@ alias tmuxa='~/dotfiles/tmxs/aptitus2'
 alias tmuxjp='~/dotfiles/tmxs/jqueryplugins'
 
 alias tmuxo='~/dotfiles/tmxs/ofertop'
+
 export TERM=xterm-256color
