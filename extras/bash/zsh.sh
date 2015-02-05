@@ -6,5 +6,7 @@ curl -L http://install.ohmyz.sh | sh
 
 sudo chsh -s /bin/zsh
 
+cp ../.oh-my-zsh/themes/*.zsh-theme ~/.oh-my-zsh/themes/
+
 echo "[Zsh instalado]"
 
