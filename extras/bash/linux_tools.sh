@@ -7,3 +7,4 @@ bash vim.sh
 bash zsh.sh
 bash others.sh
 
+bash config.sh
