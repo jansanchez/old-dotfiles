@@ -9,3 +9,5 @@ bash firefox.sh
 bash others.sh
 
 bash config.sh
+
+bash numlock.sh
