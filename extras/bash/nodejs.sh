@@ -13,7 +13,7 @@ cd $OPT_FOLDER
 
 sudo git clone https://github.com/joyent/node.git node
 
-sudo chmod 777 "$OPT_FOLDER/"node/
+sudo chmod 777 "$OPT_FOLDER/node/"
 
 cd node
 
