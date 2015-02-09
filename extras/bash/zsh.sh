@@ -10,5 +10,9 @@ sudo chsh -s /bin/zsh
 
 cp ../.oh-my-zsh/themes/*.zsh-theme ~/.oh-my-zsh/themes/
 
+cd ~/.oh-my-zsh/custom/plugins
+
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+
 echo "[Zsh instalado]"
 
