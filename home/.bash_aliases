@@ -98,7 +98,7 @@ alias f='thunar ./ &'
 
 
 # general shortcuts
-alias pro="cd /Applications/MAMP/htdocs/" 
+alias pro="cd ~/htdocs/"
 
 # be nice
 alias please=sudo
