@@ -201,3 +201,47 @@ cd dotfiles/
 ls
 sudo bash bootstrap.sh
 bash bootstrap.sh
+bash zsh.sh
+ls
+cd ..
+ls
+git status
+git add .
+git commit -am "feat(bash - zsh): agrego copiado de themes"
+ls
+gs
+git status
+git add .
+git commit -am "feat(bash - zsh): agrego copiado de themes"
+git pull origin master && git push origin master
+ls
+cd ..
+ls
+cd dotfiles/
+ls
+cd extras/bash/
+ls
+vim linux_tools.sh
+vim others.sh
+touch config.sh
+vim config.sh
+vim others.sh
+vim config.sh
+ls
+vim linux_tools.sh
+bash config.sh
+pro
+ls
+cd dotfiles/
+ls
+cd extras/
+cd bash/
+ls
+bash config.sh 
+sudo chsh -s /bin/zsh
+cd dotfiles/
+bash bootstrap.sh
+chsh -s /bin/zsh
+ls
+zsh
+chsh -s /bin/zsh

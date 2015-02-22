@@ -2,19 +2,14 @@
 
 sudo apt-get remove iceweasel
 
-sudo cat ~/dotfiles/extras/bash/firefox/sources.list >> /etc/apt/sources.list
+cd ~/downloads/
 
-cd ~/downloads
+wget -v https://download-installer.cdn.mozilla.net/pub/firefox/releases/36.0b6/linux-x86_64/es-ES/firefox-36.0b6.tar.bz2
 
-wget http://packages.linuxmint.com/pool/main/l/linuxmint-keyring/linuxmint-keyring_2009.04.29_all.deb
+tar xjf firefox-36.0b6.tar.bz2
 
-sudo dpkg -i linuxmint-keyring_2009.04.29_all.deb
+sudo mv firefox /opt/firefox36
 
-sudo apt-get update
-
-sudo apt-get install firefox
-
-sudo apt-get install firefox-l10n-es
+sudo ln -s /opt/firefox36/firefox /usr/bin/firefox
 
 echo "[Firefox instalado]"
-

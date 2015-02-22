@@ -33,4 +33,7 @@ cd "$OPT_FOLDER"
 
 sudo curl http://j.mp/spf13-vim3 -L -o - | sh
 
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
 echo "[Vim y sus plugins Instalados]"
