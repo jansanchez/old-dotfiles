@@ -131,7 +131,6 @@ bash
 bashbug
 batch
 bc
-bccmd
 bdftopcf
 bdftruncate
 bioradtopgm
@@ -139,23 +138,6 @@ biosdecode
 bitmap
 blkid
 blockdev
-bluetooth-agent
-bluetooth-applet
-bluetooth-sendto
-bluetooth-wizard
-bluetoothd
-bluez-simple-agent
-bluez-simple-service
-bluez-test-adapter
-bluez-test-audio
-bluez-test-device
-bluez-test-discovery
-bluez-test-input
-bluez-test-manager
-bluez-test-network
-bluez-test-serial
-bluez-test-service
-bluez-test-telephony
 bmp2tiff
 bmptopnm
 bmptoppm
@@ -253,7 +235,6 @@ chroot
 chrt
 chsh
 chvt
-ciptool
 cisco-decrypt
 cjet
 cjpeg
@@ -414,7 +395,6 @@ desktop-file-install
 desktop-file-validate
 desktop2menu
 df
-dfutool
 dget
 dh
 dh_auto_build
@@ -740,13 +720,10 @@ fusesmb.cache
 fzputtygen
 fzsftp
 g++
-g++-4.7
 g++-4.9
 g3topbm
 galculator
 gamma4scanimage
-gapplication
-gatttool
 gcc
 gcc-4.7
 gcc-4.9
@@ -771,7 +748,6 @@ gcr-viewer
 gdb
 gdbserver
 gdbtui
-gdbus
 gdebi
 gdebi-gtk
 gdialog
@@ -808,7 +784,6 @@ gimp-2.8
 gimp-console
 gimp-console-2.8
 ginstall-info
-gio-querymodules
 gipddecode
 git
 git-cvsserver
@@ -820,8 +795,6 @@ gitk
 gksu
 gksu-properties
 gksudo
-glib-compile-resources
-glib-compile-schemas
 glxdemo
 glxgears
 glxheads
@@ -856,7 +829,6 @@ grep-debtags
 grep-excuses
 grep-status
 grepdiff
-gresource
 groff
 grog
 grops
@@ -895,7 +867,6 @@ gs
 gsbj
 gsdj
 gsdj500
-gsettings
 gsettings-data-convert
 gsettings-schema-convert
 gsimplecal
@@ -937,10 +908,6 @@ h2xs
 halt
 hardening-check
 hbpldecode
-hciattach
-hciconfig
-hciemu
-hcitool
 hd
 hdparm
 head
@@ -1099,8 +1066,6 @@ killall5
 kmod
 koi8rxterm
 ksh
-l2ping
-l2test
 lame
 last
 lastb
@@ -1123,8 +1088,6 @@ lexgrog
 lft
 lft.db
 libnetcfg
-libpng-config
-libpng12-config
 libreoffice
 licensecheck
 line
@@ -1565,7 +1528,6 @@ pbmupc
 pbuilder
 pcf2vpnc
 pcimodules
-pcre-config
 pcxtoppm
 pdb
 pdb2.7
@@ -1629,11 +1591,6 @@ pic
 pico
 piconv
 pidof
-pilconvert.py
-pildriver.py
-pilfile.py
-pilfont.py
-pilprint.py
 ping
 ping6
 pinky
@@ -1903,7 +1860,6 @@ rawtoppm
 rbash
 rc-alert
 rcp
-rctest
 rdesktop-vrdp
 rdjpgcom
 rdoc
@@ -1942,7 +1898,6 @@ resize_reiserfs
 resolve_stack_dump
 resolveip
 rev
-rfcomm
 rgb2ycbcr
 rgb3toppm
 rgrep
@@ -2022,7 +1977,6 @@ scrollkeeper-uninstall
 scrollkeeper-update
 scrot
 sdiff
-sdptool
 sed
 see
 select-default-ispell
@@ -2522,7 +2476,6 @@ x86_64-linux-gnu-cpp-4.9
 x86_64-linux-gnu-dwp
 x86_64-linux-gnu-elfedit
 x86_64-linux-gnu-g++
-x86_64-linux-gnu-g++-4.7
 x86_64-linux-gnu-g++-4.9
 x86_64-linux-gnu-gcc
 x86_64-linux-gnu-gcc-4.7
@@ -2670,7 +2623,6 @@ xsubpp
 xtables-multi
 xterm
 xtightvncviewer
-xulrunner-20.0
 xulrunner-24.0
 xvidtune
 xvinfo
