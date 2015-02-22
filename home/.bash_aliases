@@ -96,6 +96,16 @@ alias firefox="firefox &"
 alias chrome="google-chrome &"
 alias f='thunar ./ &'
 
+# network
+
+alias redes='nmcli r'
+alias devices='nmcli dev'
+alias conectar='nmcli r wifi on'
+alias desconectar='nmcli r wifi off'
+
+function wifi() {
+	nmcli dev wifi connect $1 password $2 
+}
 
 # general shortcuts
 alias pro="cd ~/htdocs/"
