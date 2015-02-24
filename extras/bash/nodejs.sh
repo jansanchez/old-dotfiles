@@ -10,21 +10,21 @@ if [[ ! -d $OPT_FOLDER ]]; then
     sudo chmod 777 "$OPT_FOLDER/"
 fi
 
-#sudo apt-get update && sudo apt-get install git-core curl build-essential openssl libssl-dev
+sudo apt-get update && sudo apt-get install git-core curl build-essential openssl libssl-dev
 
 cd $OPT_FOLDER
 
-#sudo git clone https://github.com/joyent/node.git node
+sudo git clone https://github.com/joyent/node.git node
 
 cd node
 
-#sudo git checkout $NODE_NEW_VERSION
+sudo git checkout $NODE_NEW_VERSION
 
-#sudo ./configure --openssl-libpath=/usr/lib/ssl
+sudo ./configure --openssl-libpath=/usr/lib/ssl
 
-#sudo make
+sudo make
 
-#sudo make install
+sudo make install
 
 node -v
 
