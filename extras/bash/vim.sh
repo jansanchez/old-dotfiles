@@ -26,9 +26,6 @@ vim --version
 
 echo "[Vim Instalado]"
 
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
 cd "$OPT_FOLDER"
 
 sudo curl http://j.mp/spf13-vim3 -L -o - | sh
