@@ -3,13 +3,15 @@ dotfiles
 
 my dotfiles
 
-### Instalación de Herramientas de desarrollo
+### Instalación de Herramientas de desarrollo y dotfiles en Debian(Crunchbang)
 
 ```
 cd extras/bash/ && bash linux_tools.sh
 ```
 
-### Instalación
+-------------------------------------------------------
+
+### Si solo deseas dotfiles
 
 ```js
 bash bootstrap.sh
@@ -17,7 +19,7 @@ bash bootstrap.sh
 
 -------------------------------------------------------
 
-### Si usas elementary OS
+### Si usas Elementary OS
 
 ```
 sudo apt-get update && sudo apt-get upgrade
