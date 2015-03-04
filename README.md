@@ -15,6 +15,7 @@ cd extras/bash/ && bash linux_tools.sh
 bash bootstrap.sh
 ```
 
+-------------------------------------------------------
 
 ### Si usas elementary OS
 
@@ -32,13 +33,5 @@ cd ~/ && git clone https://github.com/jansanchez/dotfiles.git && cd dotfiles
 
 ```
 cd extras/bash/ && bash linux_tools.sh 
-```
-
-```
-cd ~/dotfiles
-```
-
-```
-bash bootstrap.sh
 ```
 
