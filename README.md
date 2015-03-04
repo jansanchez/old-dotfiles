@@ -3,14 +3,28 @@ dotfiles
 
 my dotfiles
 
+### Instalación de Herramientas de desarrollo
+
+```
+cd extras/bash/ && bash linux_tools.sh
+```
+
 ### Instalación
 
 ```js
 bash bootstrap.sh
 ```
 
-### Instalación de Herramientas de desarrollo
+
+### Si usas elementary OS
 
 ```
-cd extras/bash/ && bash linux_tools.sh
+sudo apt-get update && sudo apt-get upgrade
 ```
+
+```
+sudo apt-get install terminator && sudo apt-get install git-all
+```
+
+
+
