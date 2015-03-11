@@ -79,7 +79,10 @@ echo " > sudo service $1 restart"
 sudo service $1 restart
 }
 
-
+function tmuxp() {
+	echo " > open tmux project: $1"
+	bash ~/dotfiles/tmxs/$1
+}
 
 
 # Easier navigation: .., ..., ~ and -
@@ -244,5 +247,7 @@ alias tmuxa='~/dotfiles/tmxs/aptitus2'
 alias tmuxjp='~/dotfiles/tmxs/jqueryplugins'
 
 alias tmuxo='~/dotfiles/tmxs/ofertop'
+
+
 
 export TERM=xterm-256color
