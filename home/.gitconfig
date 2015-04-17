@@ -42,3 +42,5 @@
 [core]
 	editor = vim
 	attributesfile = ~/.gitattributes
+[push]
+	default = simple

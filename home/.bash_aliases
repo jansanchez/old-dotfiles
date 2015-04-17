@@ -1,7 +1,5 @@
 #!/bin/bash
-
 # ~/.bash_aliases
-# 
 
 #aliases for git
 
@@ -230,7 +228,7 @@ alias css='cd ~/htdocs/aptitus2/frontend && watch -n 1 node init.njs'
 
 alias cafe='coffee --watch --bare --output src/public/static/js/ frontend/cafe/'
 
-alias urbania='cd ~/htdocs/urbania3/'
+#alias urbania='cd ~/htdocs/urbania3/'
 
 alias doc='cd ~/htdocs/urbania3/src/public/static/js && yuidoc . && urbania'
 
@@ -248,6 +246,16 @@ alias tmuxjp='~/dotfiles/tmxs/jqueryplugins'
 
 alias tmuxo='~/dotfiles/tmxs/ofertop'
 
+#Urbania BackEnd Team#
 
+alias urbania3='cd ~/proyectos/urbania/urbania3/'
+alias urbania='cd ~/proyectos/urbania/'
+alias pruebas='cd ~/proyectos/pruebas/'
 
+#Utils#
+alias szsh='source ~/.zshrc'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+alias ebal='sudo vim ~/.bash_aliases'
+alias cls='clear'
 export TERM=xterm-256color
