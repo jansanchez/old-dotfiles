@@ -245,3 +245,132 @@ chsh -s /bin/zsh
 ls
 zsh
 chsh -s /bin/zsh
+cd ~
+cd .ssh/
+.ssh/
+ls -la
+rvm --v
+
+wget "http://download.oracle.com/otn-pub/java/jdk-nb/8u40-b26-8.0.2/jdk-8u40-nb-8_0_2-linux-i586.sh"
+ls -la
+rm -rf jdk-8u40-nb-8_0_2-linux-i586.sh 
+ls -la
+cd Descargas/
+ls
+mv jdk-8u40-nb-8_0_2-linux-i586.sh ~
+cd ~
+ls -la
+bash jdk-8u40-nb-8_0_2-linux-i586.sh 
+sudo bash jdk-8u40-nb-8_0_2-linux-i586.sh 
+clear
+cd Descargas/
+ls -la
+mv jdk-8u40-nb-8_0_2-linux-x64.sh ~
+cd ~
+ls -la
+bash jdk-8u40-nb-8_0_2-linux-x64.sh 
+rm -rf jdk-8u40-nb-8_0_2-linux*
+ls -la
+sudo bash jdk-8u40-nb-8_0_2-linux-x64.sh 
+rvm install ruby-2.0.0
+rvm use ruby-2.0.0
+/bin/bash --login
+sudo apt-get install tmux 
+cd ~
+vim
+uname -a
+cd proyectos/
+cd backend/urbania3/
+ls .la
+ls -la
+git status
+cd dotfiles/
+ls -la
+
+cd extras/bash/
+ls -la
+bash linux_tools.sh 
+git clone https://github.com/Edux87/dotfiles.git
+ls -la
+cd dotfiles/
+ls -la
+vi bootstrap.sh 
+sudo apt-get update && sudo apt-get upgrade
+rvm --default use 2.0.0
+/bin/bash --login
+curl -sS https://getcomposer.org/installer | php -- --install-dir=bin
+sudo vim /etc/slim.conf
+curl -sS https://getcomposer.org/installer | php -- --install-dir=bin
+sudo apt-get install php5-cli
+curl -sS https://getcomposer.org/installer | php -- --install-dir=bin
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/bin
+sudo curl -sS https://getcomposer.org/installer | php -- --install-dir=/bin
+sudo curl -sS https://getcomposer.org/installer | php
+ls -la
+cd proyectos/
+cd backend/urbania3/
+vagrant status
+vagrant reload
+vagrant provision
+bash main
+vagrant provision
+sudo apt-get install apache2
+sudo apt-get install libapache2-mod-php5 php5 php5-mcrypt
+notify-send Hola!
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+notify-send Hola! "Xxxx!
+"
+chsh -s /bin/zsh
+clear
+chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
+ls
+zsh -v
+sudo apt-get install zsh
+chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
+cd dotfiles/extras/bash/
+cp ../.oh-my-zsh/themes/*.zsh-theme ~/.oh-my-zsh/themes/
+cd ~/.oh-my-zsh/custom/plugins
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+uname -a
+ls -la
+cd proyectos/
+cd backend/urbania3/
+ls -la
+vagrant up
+vagrant destroy
+vagrant up
+vim
+chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
+chsh -s /bin/zsh
+chsh -s $(which zsh)
+zsh
+cd ~
+ls -la
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+cd .oh-my-zsh/
+ls -laZ
+sh oh-my-zsh.sh 
+cd ..
+cd .oh-my-zsh/
+git status
+cd ..
+chsh -s /bin/zsh
+sudo apt-get install terminator
