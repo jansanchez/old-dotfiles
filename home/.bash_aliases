@@ -214,7 +214,7 @@ alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
-alias android="bash ~/applications/android-studio/bin/studio.sh &"
+alias androide="bash /opt/android-studio/bin/studio.sh &"
 
 #alias chaplin='cd frontend/chaplin/ && make && cd ../..'
 
