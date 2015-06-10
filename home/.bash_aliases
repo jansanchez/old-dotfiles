@@ -90,6 +90,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+alias j='cd .. && '
 
 # programs
 alias st='sublime &'
@@ -106,6 +107,10 @@ alias desconectar='nmcli r wifi off'
 
 function wifi() {
 	nmcli dev wifi connect $1 password $2 
+}
+
+function m() {
+    sublime $1
 }
 
 # general shortcuts
@@ -265,7 +270,7 @@ alias cls='clear'
 alias sag='sudo apt-get '
 alias sagi='sudo apt-get install '
 
-
+# aliases for edit
 
 
 
