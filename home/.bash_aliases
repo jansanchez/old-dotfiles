@@ -258,4 +258,19 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias ebal='sudo vim ~/.bash_aliases'
 alias cls='clear'
+
+
+# aliases for apt-get
+
+alias sag='sudo apt-get '
+alias sagi='sudo apt-get install '
+
+
+
+
+
+
+
 export TERM=xterm-256color
+
+
