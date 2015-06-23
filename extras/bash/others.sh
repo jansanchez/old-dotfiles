@@ -16,7 +16,7 @@ sudo apt-get install libcurl3-openssl-dev
 
 sudo apt-get install pecl
 
-sudo apt_get install git-extras
+sudo apt-get install git-extras
 
 #sudo pecl install mongo
 
