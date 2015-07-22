@@ -35,6 +35,7 @@
 	ll = log --graph -30 --pretty=format:'%Cgreen%h %Creset%ad %Cblue%an %Creset%s'
 	in = fetch --dry-run
 	out = push --dry-run
+	last = cat-file commit HEAD
 [merge]
 	tool = meld
 [sendemail]
