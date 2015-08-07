@@ -6,8 +6,10 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 
-ZSH_THEME="ginux"
 
+ZSH_THEME="half-life"
+
+#ZSH_THEME="ginux"
 #ZSH_THEME="norm"
 #ZSH_THEME="smt"
 #ZSH_THEME="half-life"
