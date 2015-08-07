@@ -52,7 +52,7 @@ alias	chat='echo " > sudo nc -vlp 23" && sudo nc -vlp 23'
 
 alias   starcraft='wine ~/games/SC1.16/StarCraft.exe'
 
-alias   starcraft='wine ~/games/SC1.16/StarCraft.exe'
+alias   star='wine ~/shared/instaladores/games/SC1.16/StarCraft.exe'
 
 alias 	brillo='echo 6 | sudo tee  /sys/class/backlight/acpi_video0/brightness'
 
