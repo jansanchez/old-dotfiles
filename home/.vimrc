@@ -430,5 +430,11 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
+" Configuracion adicional by @jansanchez
+
+" Habilitando el clipboard desde vim hacia el clipboard global
 set clipboard=unnamedplus
+
+" Estableciendo el textwidth a 80 caracteres
+set textwidth=80
 
