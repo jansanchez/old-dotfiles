@@ -430,4 +430,5 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
+set clipboard=unnamedplus
 
