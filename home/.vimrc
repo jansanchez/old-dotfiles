@@ -435,6 +435,6 @@ endfunction
 " Habilitando el clipboard desde vim hacia el clipboard global
 set clipboard=unnamedplus
 
-" Estableciendo el textwidth a 80 caracteres
-set textwidth=80
+" Estableciendo el textwidth a 110 caracteres
+set textwidth=110
 
