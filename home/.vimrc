@@ -277,7 +277,23 @@ endtry
 set laststatus=2
 
 " Format the status line
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+
+hi User1 ctermbg=black  ctermfg=yellow guibg=#222222 guifg=yellow
+hi User2 ctermbg=black  ctermfg=magenta guibg=#222222 guifg=magenta
+hi User3 ctermbg=black  ctermfg=green guibg=#222222 guifg=green
+hi User4 ctermbg=black ctermfg=blue guibg=#222222 guifg=blue
+hi User5 ctermbg=black  ctermfg=white guibg=#222222 guifg=white
+
+set statusline=
+set statusline +=%1*\ %n\ %*            "buffer number
+set statusline +=%3*%y%*                "file type
+set statusline +=%4*\ %<%F%*            "full path
+set statusline +=%2*%m%*                "modified flag
+set statusline +=%1*%=%5l%*             "current line
+set statusline +=%2*/%L%*               "total lines
+set statusline +=%1*%4v\ %*             "virtual column number
+set statusline +=%2*%{&ff}\ %*          "FileFormat
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
