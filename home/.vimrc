@@ -454,3 +454,9 @@ set clipboard=unnamedplus
 " Estableciendo el textwidth a 110 caracteres
 set textwidth=110
 
+" pathogen 
+execute pathogen#infect()
+
+" setting number
+set number
+
