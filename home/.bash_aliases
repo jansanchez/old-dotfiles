@@ -69,8 +69,8 @@ git log --name-only --pretty=format: --author="$1" --since=$2 | sort | uniq
 }
 
 function access() {
-echo " > ssh -v ${1:-'git@git.ec.pe'}"
-ssh -v ${1:-'git@git.ec.pe'}
+echo " > ssh -v ${1:-'cuenta@dominio.pe'}"
+ssh -v ${1:-'cuenta@dominio.pe'}
 }
 
 function restart() {
@@ -231,35 +231,11 @@ alias home='cd ~/'
 
 #alias chaplin='coffee --watch --bare --output src/public/static/js/um/ frontend/chaplin/coffee/'
 
-#alias css='cd ~/htdocs/urbania3/frontend/css && node init.njs && cd ~/htdocs/urbania3/'
-
-alias css='cd ~/htdocs/aptitus2/frontend && watch -n 1 node init.njs'
-
 alias cafe='coffee --watch --bare --output src/public/static/js/ frontend/cafe/'
-
-#alias urbania='cd ~/htdocs/urbania3/'
-
-alias doc='cd ~/htdocs/urbania3/src/public/static/js && yuidoc . && urbania'
 
 alias jadeflux='jade --pretty --watch '
 
-alias tmuxu='~/dotfiles/tmxs/urbania3'
-
-alias tmuxn='~/dotfiles/tmxs/neoauto2'
-
-alias tmuxd='~/dotfiles/tmxs/development'
-
-alias tmuxa='~/dotfiles/tmxs/aptitus2'
-
 alias tmuxjp='~/dotfiles/tmxs/jqueryplugins'
-
-alias tmuxo='~/dotfiles/tmxs/ofertop'
-
-#Urbania BackEnd Team#
-
-alias urbania3='cd ~/proyectos/urbania/urbania3/'
-alias urbania='cd ~/proyectos/urbania/'
-alias pruebas='cd ~/proyectos/pruebas/'
 
 #Utils#
 alias szsh='source ~/.zshrc'
